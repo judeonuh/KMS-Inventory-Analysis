@@ -146,8 +146,23 @@ Emily Phan is KMS' most profitable consumer customer with a total profit contrib
 - Seek product feedback to enhance offerings.  
 
 ---
-
 ### 10. Returned Items by Customer & Segment
+
+```SQL
+SELECT 
+	DISTINCT k.Customer_Name,
+	k.Customer_Segment,
+	COUNT(o.Order_ID) AS Total_Returned
+FROM KMS_tb AS k
+Inner Join Orders_tb AS o
+	ON k.Order_ID = o.Order_ID
+WHERE o.Status = 'Returned'
+GROUP BY k.Customer_Name, k.Customer_Segment
+ORDER BY Total_Returned DESC;
+```
+
+Query Result: 
+
 | Customer         | Segment     | Total Returns |  
 |------------------|-------------|----------------|  
 | Darren Budd      | Consumer    | 10             |  
