@@ -14,7 +14,7 @@ My task as a Business Intelligence Analyst was to support the Abuja division of 
 - [Data Overview](#data-overview)  
 - [Methodology](#methodology)
 - [Data Cleaning](#data-cleaning)
-- [Analysis, Insights & Recommendations](#analysis--insights--recommendations)  
+- [Analysis, Insights & Recommendations](#analysis-,-insights-&-recommendations)  
   - [1. Highest Sales Product Category](#1-highest-sales-product-category)  
   - [2. Top & Bottom Regions by Sales](#2-top--bottom-regions-by-sales)  
   - [3. Appliances Sales in Ontario](#3-appliances-sales-in-ontario)  
