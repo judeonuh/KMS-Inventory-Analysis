@@ -31,18 +31,18 @@ My task as a Business Intelligence Analyst was to support the Abuja division of 
 
 ---
 
-## 📌 Introduction
+## Introduction
 This analysis explores KMS's historical order data from 2009 to 2012 to identify key business insights and operational improvement opportunities for the Abuja division. The focus areas include sales performance, customer profitability, shipping efficiency, and region-specific performance.
 
 ---
 
-## 📦 Data Overview
+## Data Overview
 - **Source:** KMS Order Dataset (2009-2012)  
 - **Data Points:** Order Priority,	Order Quantity,	Sales,	Discount,	Ship Mode,	Profit,	Shipping Cost,	Region,	Customer Segment,	Product Category, Returns, etc.  
 
 ---
 
-## 🛠️ Methodology
+## Methodology
 - Data imported into and queried in SQL Server Management Studio (SSMS) using **SSMS-compliant SQL queries**.  
 > [!WARNING]
 > When importing the dataset into your created SSMS database:
@@ -54,12 +54,12 @@ This analysis explores KMS's historical order data from 2009 to 2012 to identify
 
 ---
 
-## 🧹 Data Cleaning  
+## Data Cleaning  
 The Dataset was checked for duplicates, none found. Null values were replaced with 0
 
 ---
 
-## 📊 Analysis, Insights & Recommendations
+## Analysis, Insights & Recommendations
 
 ### 1. Highest Sales Product Category
 Technology products significantly contribute to overall revenue with total sales of $5,984,248.18.  
