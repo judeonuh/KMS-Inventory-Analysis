@@ -14,7 +14,7 @@ My task as a Business Intelligence Analyst was to support the Abuja division of 
 - [Data Overview](#data-overview)  
 - [Methodology](#methodology)
 - [Data Cleaning](#data-cleaning)
-- [Analysis, Insights & Recommendations](#analysis-,-insights-&-recommendations)  
+- [Analysis and Recommendations](#analysis-and-recommendations)  
   - [1. Highest Sales Product Category](#1-highest-sales-product-category)  
   - [2. Top & Bottom Regions by Sales](#2-top--bottom-regions-by-sales)  
   - [3. Appliances Sales in Ontario](#3-appliances-sales-in-ontario)  
@@ -59,7 +59,7 @@ The Dataset was checked for duplicates, none found. Null values were replaced wi
 
 ---
 
-## Analysis, Insights & Recommendations
+## Analysis and Recommendations
 
 ### 1. Highest Sales Product Category
 Technology products significantly contribute to overall revenue with total sales of $5,984,248.18.  
