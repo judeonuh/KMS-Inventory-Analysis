@@ -195,7 +195,7 @@ Query Result:
 
 ---
 
-## 📈 Overall Recommendations
+## Overall Recommendations
 - Expand focus on technology products.  
 - Address underperformance in specific regions.  
 - Strengthen relationships with top customers.  
@@ -204,6 +204,5 @@ Query Result:
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 This analysis highlights key areas where KMS can improve operational efficiency, revenue generation, and customer satisfaction. By implementing the outlined recommendations, KMS Abuja can strengthen market presence and optimize business processes.
-"""
