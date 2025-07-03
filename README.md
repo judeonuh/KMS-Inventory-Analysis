@@ -43,12 +43,14 @@ This analysis explores KMS's historical order data from 2009 to 2012 to identify
 ---
 
 ## 🛠️ Methodology
-- Data was queried using **Microsoft SQL Server-compliant SQL queries**.  
+- Data imported into and queried in SQL Server Management Studio (SSMS) using **SSMS-compliant SQL queries**.  
+> [!WARNING]
+> When importing the dataset into your created SSMS database:
+> *  Change the datatypes of Row_ID and Order_ID column to Integer.
+> *  Allow nulls for columns: Unit_Price, Profit, and Product_Base_Margin.
 - Aggregations performed for sales, profits, shipping costs, and order counts.  
 - Customer segmentation based on sales performance and return behavior.  
 - Shipping method analysis performed in relation to order priority levels.  
-> [!CAUTION]
-> When importing dataset into an SSMS database, allow nulls for columns: Unit_Price, Profit, and Product_Base_Margin.
 
 ---
 
