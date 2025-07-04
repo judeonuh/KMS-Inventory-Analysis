@@ -15,17 +15,6 @@ My task as a Business Intelligence Analyst was to support the Abuja division of 
 - [Methodology](#methodology)
 - [Data Cleaning](#data-cleaning)
 - [Analysis and Recommendations](#analysis-and-recommendations)  
-  - [1. Highest Sales Product Category](#1-highest-sales-product-category)  
-  - [2. Top & Bottom Regions by Sales](#2-top--bottom-regions-by-sales)  
-  - [3. Appliances Sales in Ontario](#3-appliances-sales-in-ontario)  
-  - [4. Revenue Growth Recommendations for Bottom 10 Customers](#4-revenue-growth-recommendations-for-bottom-10-customers)  
-  - [5. Shipping Cost by Method](#5-shipping-cost-by-method)  
-  - [6. Most Valuable Customers & Typical Purchases](#6-most-valuable-customers--typical-purchases)  
-  - [7. Top Small Business Customer](#7-top-small-business-customer)  
-  - [8. Top Corporate Customer by Orders](#8-top-corporate-customer-by-orders)  
-  - [9. Most Profitable Consumer Customer](#9-most-profitable-consumer-customer)  
-  - [10. Returned Items by Customer & Segment](#10-returned-items-by-customer--segment)  
-  - [11. Appropriateness of Shipping Costs Based on Order Priority](#11-appropriateness-of-shipping-costs-based-on-order-priority)  
 - [Overall Recommendations](#overall-recommendations)  
 - [Conclusion](#conclusion)  
 
@@ -43,7 +32,8 @@ This analysis explores KMS's historical order data from 2009 to 2012 to identify
 ---
 
 ## Methodology
-- Data imported into and queried in SQL Server Management Studio (SSMS) using **SSMS-compliant SQL queries**.  
+- Data imported into and queried in SQL Server Management Studio (SSMS) using **SSMS-compliant SQL queries**.
+- All SQL queries can be found [here](https://github.com/judeonuh/KMS-Inventory-Analysis/blob/main/KMS%20project%20query.sql).
 > [!WARNING]
 > When importing the dataset into your created SSMS database:
 > *  Change the datatypes of Row_ID and Order_ID column to Integer.
